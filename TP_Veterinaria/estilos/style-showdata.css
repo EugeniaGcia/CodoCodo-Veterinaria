@@ -1,0 +1,26 @@
+.contenidoShowData {
+    background-image: url("../Imagenes/veterinariaM.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+}
+
+table {
+    width: 70%;
+    border-collapse: collapse;
+    border-radius: 10px;
+    background-color: transparent;
+    text-align: center;
+}
+
+th,
+td {
+    padding: 10px;
+    text-align: center;
+    border: 1px solid black;
+}
+
+th {
+    font-weight: bold;
+}

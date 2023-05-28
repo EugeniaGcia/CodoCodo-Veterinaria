@@ -1,0 +1,337 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300&family=Paytone+One&family=Quicksand:wght@300;400&display=swap');
+
+/* Estilos generales */
+* {
+    font-family: 'Nunito Sans', 'Paytone One';
+    color: #1E2F59;
+}
+
+/* Estilo barra de navegación */
+/* #barraNav{
+    position: fixed
+} */
+
+.navbar-brand img {
+    width: 50px;
+}
+
+.navbar-nav .nav-item .nav-link {
+    margin: 0 10px;
+    border-radius: 50px;
+}
+
+.navbar-nav .nav-item .nav-link:hover {
+    background-color: #88BEE9;
+    color: white;
+}
+
+
+
+/* Estilo del banner de servicios */
+.banner-servicios {
+    position: relative;
+    height: 400px;
+    background-image: url("../Imagenes/background-veterinario.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.banner-servicios h1 {
+    text-align: justify;
+    font-family: 'Paytone One';
+    padding-top: 10%;
+    padding-left: 5%;
+}
+
+
+
+
+
+
+
+/* tarjetas de servicios */
+.container1 {
+    text-align: center;
+    padding: 20px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 0;
+    background-color: #EBEDEF;
+}
+
+.grid-item {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-bottom: -1px;
+}
+
+.grid-item img {
+    width: 100%;
+    height: auto;
+}
+
+.contentenido {
+    padding: 10px;
+    text-align: center;
+}
+
+#peluqueria,
+#vacunacion {
+    text-align: center;
+    margin: 0 auto;
+    align-items: center;
+}
+
+#veterinaria,
+#petShopp {
+    text-align: center;
+    margin: 0 auto;
+    align-items: center;
+}
+
+
+
+
+/* Estilos de los botones */
+.button {
+    display: inline-block;
+    padding: 10px 15px;
+    background-color: #BB5089;
+    color: white;
+    text-decoration: none;
+    border-radius: 50px;
+    border: none;
+    transition: background-color 0.3s ease;
+    margin-bottom: 20PX;
+    margin-top: 20px;
+}
+
+.button:focus,
+.button:active {
+    outline: none;
+}
+
+.button:focus {
+    background-color: #EBEDEF;
+    ;
+}
+
+.button:active {
+    background-color: #BB5089;
+}
+
+
+
+
+
+/* Estilos del formulario Turno online*/
+#formulario-container {
+    background-image: url('../Imagenes/fondo-rosa.jpg');
+    background-size: cover;
+    background-position: center;
+    padding: 20px;
+    color: white;
+}
+
+#formulario {
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+#formulario input,
+#formulario textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 20px;
+    outline: none;
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+
+
+/* Estilo consulta*/
+.banner-consulta {
+    position: relative;
+    height: 500px;
+    background-image: url("../Imagenes/perro-persona.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Paytone One', sans-serif;
+    margin-top: 0px;
+    padding: 10px 20px;
+}
+
+.banner-txt-consulta {
+    width: 30%;
+}
+
+.banner-texto h1 {
+    font-weight: bold;
+}
+
+
+
+
+
+/* Estilos del footer - formulario */
+.footer-form {
+    display: grid;
+    grid-template-columns: 35% auto;
+    gap: 20px;
+    align-items: center;
+    padding: 20px;
+    background-color: #EBEDEF;
+    margin-top: 0px;
+}
+
+.footer-izquierda img {
+    display: block;
+    margin: 0 auto;
+    width: 40px;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    width: 10px;
+}
+
+.footer-derecha {
+    text-align: center;
+}
+
+.footer-derecha h2 {
+    margin-bottom: 10px;
+    font-size: 24px;
+}
+
+
+/* Estilos del formulario de contacto */
+.contact-form {
+    display: inline-flexbox;
+    text-align: left;
+    background-color: #88BEE9;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.form-group {
+    margin-bottom: 10px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.form-group input,
+.form-group textarea {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+}
+
+
+/* NOTICIAS */
+.container-noticias {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.columna {
+    flex-basis: 33.33%;
+    margin: 10px;
+}
+
+.card-noticia {
+    width: 300px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #EBEDEF;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.card-imagen {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.card-titulo {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.card-descripcion {
+    margin-bottom: 10px;
+}
+
+.card-link {
+    display: block;
+    text-decoration: none;
+    color: #BB5089;
+}
+
+
+/* Estilos responsivos */
+
+/* Estilos para tablet y netbooks */
+@media screen and (max-width: 1024px) {
+    .footer {
+        padding: 40px 0;
+    }
+
+    .grid-container {
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    }
+}
+
+/* Estilos para celular */
+@media screen and (max-width: 480px) {
+    .footer {
+        padding: 20px 0;
+    }
+
+    .footer-izquierda img {
+        width: 80px;
+    }
+
+    .social-media img {
+        width: 20px;
+    }
+}
+
+/* Estilos para tablet */
+@media screen and (max-width: 768px) {
+    .footer {
+        padding: 30px 0;
+    }
+
+    .footer-izquierdo {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .footer-derecha {
+        text-align: center;
+    }
+}
